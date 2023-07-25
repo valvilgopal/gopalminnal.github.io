@@ -112,23 +112,44 @@
     <strong>27.</strong><hr>
     <sub>28.H2O</sub><hr>
     <sup>29.a2+b2</sup><hr>
-    <template>30.</template><hr>
-    <time></time>
-    <u></u>
-    <var></var>
-    <wbr>
+	  <template>
+  <h2>30.Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  let temp = document.getElementsByTagName("template")[0];
+  let clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script><hr>
+    
+   <p>31.today date on</p> <time datetime"25-07-2023 08:00 pm"></time>at<time>9:00 pm</time><hr>
+    <u>32.</u><hr>
+    <var>33.</var><hr>
+    <wbr><hr>
     <form>
-    	<fieldset></fieldset>
-    	<legend></legend>
-    	<input type="" name="">
-    	<textarea></textarea>
-    	<button></button>
+    	<fieldset>
+    	<legend>Form</legend>
+    	<label>name:</label>:         <input type="text" name="">
+		<label>age</label>:<input type="number" name="">
+		<label>Email id:</label>:<input type="email" name="">
+		<label>Password</label>:<input type="password" name="">
+		<label>Vechile</label>:<input type="checkbox" name="">car
+		<input type="checkbox" name="">bike
+		<input type="checkbox" name="">cycle
+		<label>Account</label>:<input type="grid" name="">Saving
+		<input type="grid" name="">Saving
+    	<label>Address</label>:  <textarea></textarea>
+    	<button>submit</button>
     	<select></select>
     	<optgroup></optgroup>
     	<option></option>
     	<label></label>
     	<datalist></datalist>
     	<output></output>
+	</fieldset>	
     </form>
 
     <iframe src=""></iframe>
