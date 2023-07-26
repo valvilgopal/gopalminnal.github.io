@@ -102,6 +102,7 @@
     </pre><hr>
 	  <label for="progressive">20.Downloading progress</label>
     <progress id="progressive" value="35" max="100"></progress><hr>
+	  <fieldset>
     <q>20.q tag</q><hr>
     <rp>21.rp tag</rp><hr>
     <rt>22.rt tag</rt><hr>
@@ -110,8 +111,10 @@
     <samp>25.samp tag</samp><hr>
     <small>26.small tag</small><hr>
     <strong>27.strong tag</strong><hr>
+		  </fieldset>
     <sub>28.H2O</sub><hr>
     <sup>29.a2+b2</sup><hr>
+	  
 <template>
   <h2>30.Flower</h2>
   <img src="https://cdn.pixabay.com/photo/2023/07/19/18/56/japanese-beetle-8137606_640.png" width="214" height="204">
@@ -143,12 +146,28 @@ function showContent() {
 		<input type="grid" name="">Saving
     	<label>39.Address</label>:  <textarea>39</textarea>
     	<button>submit</button>
-    	
-    	<optgroup>42</optgroup>
-    	<option>43</option>
-    	<label>44</label>
+    	<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+    	<label for="cars">Choose a car:</label>
+<select  name="cars" id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+    	<option>43.option tag</option>
+	<option>43.option tag check</option>
+    	<label>44.label</label>
     	<datalist>45</datalist>
-    	<output>46</output>
+    	<output>46.output</output>
 	</fieldset>	
     </form><hr>
 	  
