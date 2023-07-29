@@ -190,7 +190,20 @@ function showContent() {
 	<option>43.option tag check</option>
     	<label>44.label</label>
     	<datalist>45</datalist>
+		<datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+		<hr>
     	<output>46.output</output>
+		<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="5">
++<input type="number" id="b" value="25">
+=<output name="x" for="a b"></output><hr>
+</form>
 	</fieldset>	
     </form><hr>
 	  
@@ -374,7 +387,11 @@ document.write("Hello World! no script tag")
  <applet>applet</applet><hr>
  <embed src="https://cdn.pixabay.com/photo/2023/01/16/18/06/plants-7722970_1280.jpg" width="200" hight="200"><hr>
  <object data="https://cdn.pixabay.com/photo/2015/06/22/08/38/siblings-817369_640.jpg" width="300" hight="200"></object><hr>
- <param name="" value=""><hr>
+ <param name="autoplay" value="true">
+	  <object data="https://pixabay.com/sound-effects/crowd-cheer-ii-6263/">
+		<param name="autoplay" value="true">  
+	  </object>
+	  <hr>
 
  <morquee>this an morquee tag of website</morquee>
 
