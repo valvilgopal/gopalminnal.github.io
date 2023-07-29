@@ -116,12 +116,25 @@
 	  <fieldset>
     <q>20.q tag</q><hr>
     <rp>21.rp tag</rp><hr>
-    <rt>22.rt tag</rt><hr>
-    <ruby>23.ruby tag</ruby><hr>
+    <rt>22.rt tag</rt>
+ <rt> ㄏㄢˋ </rt>
+	<ruby>
+ 漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+		  <hr>
+    <ruby>23.ruby tag</ruby>
+		  <ruby>
+漢 <rt> ㄏㄢˋ $</rt>
+</ruby>
+<hr>
     <s>24.s tag</s><hr>
-    <samp>25.samp tag</samp><hr>
-    <small>26.small tag</small><hr>
-    <strong>27.strong tag</strong><hr>
+    <samp>25.samp tag</samp>
+		  <p>The web desinging 3 in<samp>html,css,javascript</samp> and many tags</p><hr>
+    <small>26.small tag</small>
+		  <p>This is <small>some smaller</small> text.</p>
+<hr>
+    <strong>27.strong tag</strong>
+		  <hr>
 		  </fieldset>
     <sub>28.H2O</sub><hr>
     <sup>29.a2+b2</sup><hr>
@@ -137,7 +150,9 @@ function showContent() {
   let clon = temp.content.cloneNode(true);
   document.body.appendChild(clon);
 }
-</script><hr>
+</script>
+	  <h2>30.Flower</h2>
+  <img src="https://cdn.pixabay.com/photo/2023/07/19/18/56/japanese-beetle-8137606_640.png" width="214" height="204"><hr>
     
    <p>31.today date on</p> <time datetime"25-07-2023 08:00 pm"></time>at<time>9:00 pm</time><hr>
     <u>32.u tag</u><hr>
@@ -222,17 +237,30 @@ function showContent() {
 	    <img src="https://cdn.pixabay.com/photo/2023/01/16/18/06/plants-7722970_1280.jpg" width="200" hight="200">
 	 <figcaption>Fig number write fig 1.1</figcaption>    
     </figure><hr>
-    <picture></picture><hr>
-    <svg></svg><hr>
+    <picture>
+	<picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <img src="https://cdn.pixabay.com/photo/2017/10/11/11/31/roses-2840743_640.jpg" alt="Flowers" style="width:auto;">
+</picture>    
+    </picture><hr>
+    <svg>svg tag</svg>
+	  
+	  <svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+	  <hr>
 
     <audio controls>
 	<source src="F:\file_example_MP3_700KB.mp3" type="audio/mpeg">  
 Your browser does not support the html audio tag.     
     </audio><hr>
-    <source src="" type=""><hr>
-    <track kind="" src=""><hr>
+    <source src="F:\file_example_MP3_700KB.mp3" type="audio/mpeg"><hr>
+    <track kind="" src="">
+<track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian"><hr>
     <video controls>
-	<source src="F:\video.mp4" type="video/mp4">  
+	<source src="F:\video.mp4" type="video/mp4"> 
+	 <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
   Your browser does not support the html video tag.      
     </video><hr>
 
@@ -280,11 +308,13 @@ table, th, td {
 }
 </style>	  
   <caption>table caption</caption> 
+	  <thead>
 <tr>
         <th>table head1</th>
 	<th>table head2</th>
 	<th>table head3</th>
-  </tr>
+  </tr></thead>
+	  <tbody>
 	   <tr>
   <td>table data</td>
  <td rowspan=2>table data</td>
@@ -294,12 +324,12 @@ table, th, td {
   <td>table data</td>
  <td>table data</td>
  <td>table data</td>
-	 </tr>
-	  	   <tr>
+	 </tr></tbody>
+	  <tfoot>	   <tr>
   <td>table data</td>
  <td>table data</td>
  <td>table data</td>
-	 </tr>
+	 </tr></tfoot>
   <thead>table head</thead>
   <tbody>table body</tbody>
   <tfoot>table foot</tfoot>
@@ -323,7 +353,9 @@ table, th, td {
   <h2>This is a heading in a div element</h2>
   <p>This is some text in a div element.</p>
 </div><hr>
-<span>span tag</span><hr>
+<span>span tag</span>
+	  <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has 
+		  <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p><hr>
 <header><h1>Header tag</h1>
 	<p>the is header paragrap</p>
 </header>
@@ -334,8 +366,51 @@ table, th, td {
 <footer>
 	 <p>footer tag</p
 	<p>footer tag is section document</p></footer><hr>
-<main>main tag</main><hr>
-<section>section tag</section><hr>
+<main>main tag</main>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+	   <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+	  <hr>
+<section>section tag</section>
+<section>
+  <h2>WWF History</h2>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation,
+	  research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+	 
+<h2>WWF's Symbol</h2>
+<p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the
+	Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+
+	  <hr>
 	  
 <article>
 	 <h2>Mozilla Firefox</h2>
@@ -354,7 +429,10 @@ table, th, td {
 	The instructions are made up of a specific number of bits. For instance, The CPU's instructions might be 8 bits,
 	where the first 4 bits make up the operation code that tells the computer what to do.
 	The next 4 bits are the operand, which tells the computer the data that should be used.</details><hr>
-<dialog>dialog tag</dialog><hr>
+<dialog>dialog tag</dialog>
+	<p>  The instructions are made up of a specific number of bits. For instance, The CPU's instructions might be 8 bits, 
+	where the first 4 bits make up the<dialog open> operation code</dialog> that tells the computer what to do. 
+	The next 4 bits are the operand, which tells the computer the data</p><hr>
 <summary>The instructions are made up of a specific number of bits. For instance, The CPU's instructions might be 8 bits, 
 	where the first 4 bits make up the<dialog open> operation code</dialog> that tells the computer what to do. 
 	The next 4 bits are the operand, which tells the computer the data that should be used.</summary><hr>
@@ -388,7 +466,7 @@ document.write("Hello World! no script tag")
  <embed src="https://cdn.pixabay.com/photo/2023/01/16/18/06/plants-7722970_1280.jpg" width="200" hight="200"><hr>
  <object data="https://cdn.pixabay.com/photo/2015/06/22/08/38/siblings-817369_640.jpg" width="300" hight="200"></object><hr>
  <param name="autoplay" value="true">
-	  <object data="https://pixabay.com/sound-effects/crowd-cheer-ii-6263/">
+	  <object data="https://cdn.pixabay.com/photo/2018/02/12/10/45/heart-3147976_1280.jpg">
 		<param name="autoplay" value="true">  
 	  </object>
 	  <hr>
